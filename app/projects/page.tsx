@@ -22,8 +22,7 @@ export default function ProjectsPage() {
         Projects
       </h1>
       <p className="max-w-2xl text-slate-700">
-        Representative projects with placeholder summaries for scope, stack, and
-        delivery outcomes.
+        A selection of ongoing personal projects.
       </p>
       <div className="grid gap-5 md:grid-cols-2">
         {projects.map((project) => (
