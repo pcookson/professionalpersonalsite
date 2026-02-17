@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Professional Personal Site",
+  title: "Patrick Cookson's Professional Site",
   description: "A personal professional website built with Next.js"
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
           <header className="border-b border-slate-200 py-5">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <Link href="/" className="text-lg font-semibold tracking-tight">
-                Your Name
+                Patrick Cookson
               </Link>
               <nav
                 aria-label="Primary navigation"
@@ -48,7 +48,7 @@ export default function RootLayout({
           <main className="flex-1 py-12">{children}</main>
 
           <footer className="border-t border-slate-200 py-5 text-sm text-slate-500">
-            <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Patrick Cookson. All rights reserved.</p>
           </footer>
         </div>
       </body>

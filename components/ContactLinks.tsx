@@ -1,18 +1,18 @@
 const links = [
   {
     label: "Email",
-    href: "mailto:your.email@example.com",
-    text: "your.email@example.com"
+    href: "mailto:pcookson@uwo.ca",
+    text: "pcookson@uwo.ca"
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/your-profile",
-    text: "linkedin.com/in/your-profile"
+    href: "https://ca.linkedin.com/in/patrick-cookson",
+    text: "linkedin.com/in/patrick-cookson"
   },
   {
     label: "GitHub",
-    href: "https://github.com/your-username",
-    text: "github.com/your-username"
+    href: "https://github.com/pcookson",
+    text: "https://github.com/pcookson"
   }
 ];
 

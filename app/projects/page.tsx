@@ -2,25 +2,16 @@ import { ProjectCard } from "@/components/ProjectCard";
 
 const projects = [
   {
-    name: "Onboarding Workflow Modernization",
+    name: "Muscle Gainification App",
     description:
-      "Rebuilt onboarding flows into modular services and a guided UI that simplified implementation for enterprise clients.",
-    stack: "Next.js, TypeScript, PostgreSQL, Redis",
-    outcome: "Reduced average setup time from weeks to days."
+      "Application to gamify strength and hypertrophy for those currently involved in resistence training.",
+    stack: "Next.js, TypeScript, PostgreSQL, Redis"
   },
   {
-    name: "Customer Success Analytics Hub",
+    name: "Architectural Decision Dashboard",
     description:
-      "Delivered a reporting experience that combined event data, account health indicators, and operational insights.",
-    stack: "React, Node.js, Tailwind CSS, BigQuery",
-    outcome: "Improved decision-making speed for weekly account reviews."
-  },
-  {
-    name: "Release Readiness Dashboard",
-    description:
-      "Created a centralized release dashboard with quality gates, incident summaries, and deployment status across teams.",
-    stack: "Next.js, GraphQL, Playwright, Vercel",
-    outcome: "Cut release coordination overhead and improved launch predictability."
+      "Dashboard to integrate software architecture decision making with Jira and Confluence",
+    stack: "React, Node.js, Tailwind CSS",
   }
 ];
 
@@ -41,7 +32,6 @@ export default function ProjectsPage() {
             name={project.name}
             description={project.description}
             stack={project.stack}
-            outcome={project.outcome}
           />
         ))}
       </div>

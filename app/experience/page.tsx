@@ -2,27 +2,32 @@ import { RoleSection } from "@/components/RoleSection";
 
 const experiences = [
   {
-    role: "Senior Software Engineer",
-    company: "Company Name",
+    role: "Senior Technical Lead",
+    company: "Canada Life",
     period: "2022 - Present",
     summary:
-      "Owned delivery for a portfolio of customer-facing features while improving service reliability and engineering velocity.",
+      "Lead cross-functional initiatives spanning product, architecture, security, and infrastructure teams to ensure scalable, resilient, and compliant solutions. Balance short-term delivery pressures with long-term architectural sustainability.",
     highlights: [
-      "Introduced release playbooks that reduced rollback rates across quarterly launches.",
-      "Partnered with product leadership to prioritize technical debt with clear impact metrics.",
-      "Mentored engineers through architecture reviews, pairing sessions, and onboarding plans."
+      "Guide system design decisions across frontend and backend services, with emphasis on performance, maintainability, and reliability.",
+      "Direct integration across user experience, service layers, and enterprise systems to ensure cohesive end-to-end delivery.",
+      "Champion application performance optimization and operational stability across high-traffic client platforms.",
+      "Coach and mentor developers transitioning into complex enterprise stacks, accelerating onboarding and raising engineering standards.",
+      "Partner with stakeholders to translate evolving business requirements into clear technical execution strategies."
     ]
   },
   {
-    role: "Software Engineer",
-    company: "Previous Company",
-    period: "2019 - 2022",
+    role: "Senior Software Developer",
+    company: "Canada Life",
+    period: "2020 - 2022",
     summary:
-      "Built full-stack experiences across multiple services and contributed to a shared frontend design system.",
+     "Served as senior developer across Canada Life’s Group and Individual client platforms, with responsibility for:",
     highlights: [
-      "Shipped API and UI enhancements that increased feature adoption in enterprise accounts.",
-      "Implemented end-to-end tests for critical workflows to improve release confidence.",
-      "Collaborated with design to standardize reusable patterns and accessibility behavior."
+      "Full-stack feature implementation",
+      "Cross-system integration",
+      "User experience enhancements",
+      "Application performance improvements",
+      "Technical mentorship of junior developers"
+
     ]
   }
 ];
