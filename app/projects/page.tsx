@@ -6,7 +6,7 @@ const projects = [
     description:
       "Application to test your investment skills against the S&P 500 using virtual currency.",
     stack: "Next.js, TypeScript, PostgreSQL, Redis",
-    href: "vesti.patrickcookson.com"
+    href: "https://vesti.patrickcookson.com"
   },
   {
     name: "PAH Analysis Workbench",
