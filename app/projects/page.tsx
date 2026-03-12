@@ -38,6 +38,7 @@ export default function ProjectsPage() {
             name={project.name}
             description={project.description}
             stack={project.stack}
+            href={project.href}
           />
         ))}
       </div>
