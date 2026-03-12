@@ -2,15 +2,22 @@ import { ProjectCard } from "@/components/ProjectCard";
 
 const projects = [
   {
-    name: "Muscle Gainification App",
+    name: "Vesti",
     description:
-      "Application to gamify strength and hypertrophy for those currently involved in resistence training.",
-    stack: "Next.js, TypeScript, PostgreSQL, Redis"
+      "Application to test your investment skills against the S&P 500 using virtual currency.",
+    stack: "Next.js, TypeScript, PostgreSQL, Redis",
+    href: "vesti.patrickcookson.com"
   },
   {
-    name: "Architectural Decision Dashboard",
+    name: "PAH Analysis Workbench",
     description:
-      "Dashboard to integrate software architecture decision making with Jira and Confluence",
+      "Web application to analyze JWST IR spectra",
+    stack: "Python, Vue, JavaScript",
+  },
+  {
+    name: "AstroSignals",
+    description:
+      "AstroSignals is a web application for exploring TESS and Kepler light-curve data and supporting workflows for identifying potential astronomical anomalies in time-series photometry.",
     stack: "React, Node.js, Tailwind CSS",
   }
 ];
